@@ -18,5 +18,11 @@ useEffect is basically the replacement for the componentDidMount, componentDidUp
 
 # useCustom Hooks
 
-# hooks
-React Hooks Concept POC
+you cannot return a Promise from useEffect
+useEffect should exclusively return another function, which is used for cleaning up the effect.
+
+# useReducer Hooks
+
+useState, useReducer is another hook, convenient for managing complex state changes.
+
+Getting some issue in this hook.

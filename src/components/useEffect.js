@@ -11,11 +11,11 @@ const UseEffect = ( ) => {
             setResponseData(res.hits)}
         ).catch(err=>console.log('error is ', err))
     },[])
-    
+
     return(<React.Fragment>
         <span>UseEffect Hook</span>
         <hr></hr>
-        Data coming from api is {data && data[0] && data[0].title}
+        Data coming from api is {data && data[1] && data[1].title}
         <hr></hr>
     </React.Fragment>)
 }
